@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+table,th,td
+{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* text-align: justify; */
+}
+table
+{
+    height: 400px;
+    text-align: center;
+}
+.first
+{
+    width: 80%;
+    /* padding-left: 110PX; */
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    
+}
+input
+{
+    float: right;
+    width: 105px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+footer
+{
+    text-align: center;
+    background-color: gray;
+}
+th
+{
+    padding: 20px;
+}
